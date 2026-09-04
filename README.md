@@ -6,7 +6,7 @@ The first setting of the lamp requests the current phase of the moon from the [W
 
 ![Photo of the Lunatic Light lamp](/assets/images/Cover.jpeg)
 
-[![Youtube video](http://img.youtube.com/vi/Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh/0.jpg)](http://www.youtube.com/watch?v=Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh "Lunatic Light")
+[![Youtube video](/assets/images/Cover.jpeg)](http://www.youtube.com/watch?v=Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh "Lunatic Light")
 
 ## Quick start
 The full documentation is written on the [Documentation file.](/Documentation.md)
