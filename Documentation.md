@@ -14,10 +14,11 @@
 * [06 — Fabrication](#06--fabrication)
 * [07 — Firmware](#07--firmware)
 * [08 — Interaction](#08--interaction)
-* [09 — Future Development](#09--future-development)
-* [10 — Replication](#10--replication)
-* [11 — License](#11--license)
-* [12 — References](#12--references)
+* [09 — Final Result](#09--final-result)
+* [10 — Future Development](#10--future-development)
+* [11 — Replication](#11--replication)
+* [12 — License](#12--license)
+* [13 — References](#13--references)
 
 ---
 
@@ -273,7 +274,7 @@ ArduinoJson
 FastLED
 ```
 
-Make sure you have the most updated versions of both the Arduino IDE, and the libraries for the proper functioning.
+Make sure you have the most updated versions of the Arduino IDE, the ESP32 cards, and the libraries for the proper functioning.
 
 ---
 
@@ -313,9 +314,7 @@ Current Moon Phase
 
 ## Mode 0 — Current Moon Phase
 
-[Describe the default state.]
-
-[Describe API update behavior.]
+This state shows the current moon phase based on the API response.
 
 ## Mode 1 — Phase Selection
 
@@ -345,7 +344,11 @@ WHITE ───────── ORANGE ───────── RED
 
 ---
 
-# 9 — Future Development
+# 09 — Final Result
+
+[![Youtube video](http://img.youtube.com/vi/Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh/0.jpg)](http://www.youtube.com/watch?v=Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh "Lunatic Light")
+
+# 10 — Future Development
 
 ## Possible Improvements
 
@@ -355,7 +358,7 @@ WHITE ───────── ORANGE ───────── RED
 * Optimization for using with smart home controllers like Alexas, Google Nest, or with open projects like [Home Assistant](https://www.home-assistant.io/)
 * Adding weather forecast for the day.
 
-# 10 — Replication
+# 11 — Replication
 I encourage you, the reader, to replicate this project and share it, give the proper credits, though. Knowledge only matters when it is shared. I have included all the files needed for its completion, for free.
 
 > Free as in speech, free as in beer.
@@ -366,7 +369,7 @@ MAKE SURE TO GIVE CREDITS IF YOU REPRODUCE THIS PIECE!
 
 ---
 
-# 11 — License
+# 12 — License
 
 The firmware is licensed under the GNU General Public License v3.0 (GPL-3.0).
 
@@ -374,7 +377,7 @@ See the [LICENSE](LICENSE) file.
 
 Lunatic Light © 2026 by Alberto Blanco is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-# 12 — References
+# 13 — References
 
 ## APIs
 
