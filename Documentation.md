@@ -346,7 +346,7 @@ WHITE ───────── ORANGE ───────── RED
 
 # 09 — Final Result
 
-[![Youtube video](http://img.youtube.com/vi/Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh/0.jpg)](http://www.youtube.com/watch?v=Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh "Lunatic Light")
+[![Youtube video](/assets/images/Cover.jpeg)](http://www.youtube.com/watch?v=Jj1wgF8snc0?si=hzCaXsZvxEteh3Uh "Lunatic Light")
 
 # 10 — Future Development
 
