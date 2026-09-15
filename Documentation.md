@@ -128,7 +128,7 @@ I have included the code for you to check it out and modify, at the end of the d
 
 The electronic schematic is quite straightforward, it was designed in [KiCad](https://www.kicad.org/), so the workflow is as smooth as possible. I downloaded the [FabLabs KiCad Library](https://github.com/SainsburyWellcomeCentre/fablabs-kicad-library) that has all the footprints for components like the microcontroller, pins, switches, etc.
 
-![Wiring diagram](images/Diagrama.jpg)
+![Wiring diagram](images/Schematic.jpg)
 
 Using KiCad the PCB design was very easy, as it almosts designs it on its own, based on the schematic, and only a few corrections were done for the paths. But that is where the problems began.
 
@@ -136,18 +136,18 @@ Using KiCad the PCB design was very easy, as it almosts designs it on its own, b
 
 This first prototype was designed to have all the components soldered on the surface of the PCB (surface mounted components i guess it's called?). It was cut with the [Xtool F1 Ultra](https://www.xtool.com/products/xtool-f1-ultra-20w-fiber-diode-dual-laser-engraver) laser engraver on a phenolic plate, which was at the beginning quite satisfying and succesful, but the problem came with soldering the components and my minimum patience.
 
-![Xtool prototype 1](images/KiCad_01.jpg)
-![PCB prototype 01](images/PCB_01.jpg)
+![Xtool prototype 1](images/PCB_01.jpg)
+![PCB prototype 01](images/PCB_01_Xtool.jpg)
 
 So a new solution was needed. Instead of surface mounting the components, they should go through holes and soldered underneath. The PCB was redesigned on this premise, maintaining the same schematic and distribution. One important thing to have in consideration is to mirror the PCB, as it will be "upside down", either from KiCad or at the manufacturing software.
 
-![Xtool prototype 1](images/KiCad_02.jpg)
-![PCB prototype 01](images/PCB_02.jpg)
+![Xtool prototype 1](images/PCB_02.jpg)
+![PCB prototype 01](images/PCB_02Xtool.jpg)
 
 And it also didn't work. Apparently the paths weren't completelly separated and there was a small resistance between them, so the encoder was malfunctioning and the LED strip died. So the PCB was cut using different parameters, the LED strip replaced and voilá! it was working properly.
 
-![Xtool prototype 3](images/Xtool_final.jpg)
-![PCB prototype 03](images/PCB_final.jpg)
+![Xtool prototype 3](images/Xtool_final.jpeg)
+![PCB prototype 03](images/PCB_final.jpeg)
 
 # 06 — Fabrication
 
@@ -191,11 +191,15 @@ All files required to reproduce the project can be found in this repository.
 
 ### Hardware
 
-→ [Hardware files](hardware/)
+→ [Moon outline](assets/files/Luna.dxf)
+→ [LED Strip posts](assets/files/Post.stl)
+→ [PCB Cover](assets/files/Tapa_final.stl)
+→ [PCB Base](assets/files/Base_final.stl)
+→ [PCB cut file](assets/files/Luna-F_Cu.dxf)
 
 ### Firmware
 
-→ [Firmware](firmware/)
+→ [Firmware](assets/files/LunaticLight.ino)
 
 ## Build Process
 
@@ -232,18 +236,18 @@ On the firmware file, the parts that can be customized are the following:
 
 The sculpture is based on a real photo (i took) from the moon. I was searching online for different solutions on turning this photo into a 3D model, I even thought about modelling it with software like [Blender](https://www.blender.org/) or similars, but the real solution came from the [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/) software, an (almost) universal slicer used for 3D printing. The photo is imported and the colours are matched to different heights until i got something i liked.
 
-![Cura parameters](images/Cura_01.jpg)
-![3D model](images/Cura_02.jpg)
+![Cura parameters](images/Cura_parameters.jpg)
+![3D model](images/Cura_moon.jpg)
 
 The sculpture was designed on [Autodesk Fusion 360](https://www.autodesk.com/ca-en/products/fusion-360), both the central piece and the posts for the LED strip. Both models are included below.
 
-![Base outline](images/Fusion_01.jpg)
-![Post](images/Fusion_02.jpg)
+![Base outline](images/Outline_fusion.jpg)
+![Post](images/Post_fusion.jpg)
 
 The posts are 3D printed on PLA, but you can choose the material you prefer, and 41 of them are needed. The base is CNC Routed on MDF, the 3D model of the moon is imported on [Vcarve](https://www.vectric.com/products/vcarve/), and configured, then the outline vector is also added for it to be cut. 
 
-![Cura posts](images/Cura_03.jpg)
-![CNC Router](images/CNC_Router.jpg)
+![Cura posts](images/Post_cura.jpg)
+![CNC Router](images/CNC_Router.jpeg)
 
 I used a water-based sealant for better finishing, and then a coat of white paint. The posts are inserted in the holes and secured with wood screws. The flat part is where the LED strip will adhere, you could use the integrated glue or use more if you prefer.
 
