@@ -109,7 +109,6 @@ I have included the code for you to check it out and modify, at the end of the d
 | Rotary encoder  |        1 | User interaction           |
 | Custom PCB      |        1 | Electrical interconnection |
 | Power supply    |        1 | System power               |
-| Other           |        — | —                          |
 
 
 ## Pinout
