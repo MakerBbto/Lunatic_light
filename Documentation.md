@@ -136,18 +136,18 @@ Using KiCad the PCB design was very easy, as it almosts designs it on its own, b
 
 This first prototype was designed to have all the components soldered on the surface of the PCB (surface mounted components i guess it's called?). It was cut with the [Xtool F1 Ultra](https://www.xtool.com/products/xtool-f1-ultra-20w-fiber-diode-dual-laser-engraver) laser engraver on a phenolic plate, which was at the beginning quite satisfying and succesful, but the problem came with soldering the components and my minimum patience.
 
-![Xtool prototype 1](images/PCB_01.jpg)
-![PCB prototype 01](images/PCB_01_Xtool.jpg)
+![Xtool prototype 1](/assets/images/PCB_01.jpg)
+![PCB prototype 01](/assets/images/PCB_01_Xtool.jpg)
 
 So a new solution was needed. Instead of surface mounting the components, they should go through holes and soldered underneath. The PCB was redesigned on this premise, maintaining the same schematic and distribution. One important thing to have in consideration is to mirror the PCB, as it will be "upside down", either from KiCad or at the manufacturing software.
 
-![Xtool prototype 1](images/PCB_02.jpg)
-![PCB prototype 01](images/PCB_02Xtool.jpg)
+![Xtool prototype 1](/assets/images/PCB_02.jpg)
+![PCB prototype 01](/assets/images/PCB_02Xtool.jpg)
 
 And it also didn't work. Apparently the paths weren't completelly separated and there was a small resistance between them, so the encoder was malfunctioning and the LED strip died. So the PCB was cut using different parameters, the LED strip replaced and voilá! it was working properly.
 
-![Xtool prototype 3](images/Xtool_final.jpeg)
-![PCB prototype 03](images/PCB_final.jpeg)
+![Xtool prototype 3](/assets/images/Xtool_final.jpeg)
+![PCB prototype 03](/assets/images/PCB_final.jpeg)
 
 # 06 — Fabrication
 
@@ -241,13 +241,13 @@ The sculpture is based on a real photo (i took) from the moon. I was searching o
 
 The sculpture was designed on [Autodesk Fusion 360](https://www.autodesk.com/ca-en/products/fusion-360), both the central piece and the posts for the LED strip. Both models are included below.
 
-![Base outline](images/Outline_fusion.jpg)
-![Post](images/Post_fusion.jpg)
+![Base outline](/assets/images/Outline_fusion.jpg)
+![Post](/assets/images/Post_fusion.jpg)
 
 The posts are 3D printed on PLA, but you can choose the material you prefer, and 41 of them are needed. The base is CNC Routed on MDF, the 3D model of the moon is imported on [Vcarve](https://www.vectric.com/products/vcarve/), and configured, then the outline vector is also added for it to be cut. 
 
-![Cura posts](images/Post_cura.jpg)
-![CNC Router](images/CNC_Router.jpeg)
+![Cura posts](/assets/images/Post_cura.jpg)
+![CNC Router](/assets/images/CNC_Router.jpeg)
 
 I used a water-based sealant for better finishing, and then a coat of white paint. The posts are inserted in the holes and secured with wood screws. The flat part is where the LED strip will adhere, you could use the integrated glue or use more if you prefer.
 
